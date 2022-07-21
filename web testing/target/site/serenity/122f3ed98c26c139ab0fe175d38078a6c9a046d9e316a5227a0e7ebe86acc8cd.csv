@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"see detail about dashboard page","admin see date dashboard page","SUCCESS","2022-07-22T00:46:59.6645066+08:00[Asia/Makassar]","0.0","4.84"
+"see detail about dashboard page","admin change mounth and year","SUCCESS","2022-07-22T00:47:04.6302985+08:00[Asia/Makassar]","0.0","5.3"
+"see detail about dashboard page","admin close total user and total mamber on the analytic dashbord","SUCCESS","2022-07-22T00:47:10.063482+08:00[Asia/Makassar]","0.0","7.6"

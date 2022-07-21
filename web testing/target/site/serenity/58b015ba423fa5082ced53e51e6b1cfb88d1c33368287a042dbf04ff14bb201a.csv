@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"admin see detail manageadmin page","admin choose manage admin","SUCCESS","2022-07-22T00:47:34.0931051+08:00[Asia/Makassar]","0.0","9.73"
+"admin see detail manageadmin page","admin choose delete admin","SUCCESS","2022-07-22T00:47:45.516215+08:00[Asia/Makassar]","0.0","9.36"

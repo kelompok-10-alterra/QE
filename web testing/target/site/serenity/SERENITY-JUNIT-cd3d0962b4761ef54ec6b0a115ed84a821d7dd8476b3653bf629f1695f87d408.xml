@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="admin can see detail membership page" skipped="0" tests="3" time="32.22" timestamp="2022-07-22 12:47:56"><testcase name="admin can see detail membership page"/><testcase name="admin add new membership"/><testcase name="admin look status active"/></testsuite>

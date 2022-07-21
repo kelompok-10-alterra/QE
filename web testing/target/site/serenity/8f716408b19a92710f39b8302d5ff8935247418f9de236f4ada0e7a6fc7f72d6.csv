@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"admin see detail newsletter page","admin send newsletter","SUCCESS","2022-07-22T00:48:32.7225103+08:00[Asia/Makassar]","0.0","10.09"
+"admin see detail newsletter page","admin send news letter but do not fill in the title and text","SUCCESS","2022-07-22T00:48:54.8291813+08:00[Asia/Makassar]","0.0","12.33"
