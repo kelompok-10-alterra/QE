@@ -144,7 +144,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"admin on the class page","type":"feature","href":"fdef25eee651c533f5026eec94735fdd0429294b7f770199b42823708fc4fc5c.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-check-circle-fill success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e3 scenarios\u003c/span\u003e"]}];
+            var requirementsTree = [];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -215,7 +215,7 @@
             <a href="#"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 22-07-2022 00:46</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated </span>
     <br style="clear:left"/>
 </div>
 
@@ -230,20 +230,11 @@
                         <div clas="table">
                             <div class="row">
 
-                                   <div class="col-sm-8">
+                                    <div class="col-sm-12">
                                         <span>
                                             <h2><i class="bi bi-book"></i> Feature: Admin On The Class Page</h2>
                                         </span>
                                     </div>
-                                        <div class="col-sm-4">
-                                        <span class="feature-tags">
-                                            <p class="tag">
-                                                    <span class="badge feature-tag tag-badge" style="background:default;">
-                                                        <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="d631c0fef06687bb4dd5f807eca6972170587ddc4cc6fdc4585c1926aef4d412.html">class (tag)</a>
-                                                    </span>
-                                            </p>
-                                        </span>
-                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -278,228 +269,13 @@
                                                 <h3>Feature Coverage By Scenario</h3>
 
                                                 <!-- REQUIREMENTS PIE CHART -->
-                                                    <div class="chart-container" style="position: relative; width:30vw">
-                                                        <canvas id="requirementChart" width="300" height="300"></canvas>
-                                                    </div>
 
                                             </div>
                                             <div class="col-sm-8">
-                                                <!--- TOC --->
-                                                <div id="toc">
-                                                    <h3>Overview</h3>
-                                                    <table class="table" id="toc-table">
-                                                                    <tr>
-                                                                        <td style="width:95%;" class="toc-title">
-                                                                            <span class="orphan-scenario-toc-entry">
-                                                                                    <a href="#94d9afe8a8138236a36e9307487f68dab4d0b63819177ef09bfe13bc51418cb9"
-                                                                                       title="View scenario details">
-                                                                                        <i class="bi bi-chat-dots"></i> Scenario: admin see detail class page
-                                                                                    </a>
-                                                                                </span>
-                                                                        </td>
-                                                                        <td>
+                                                <h3>Requirements Overview</h3>
 
-                                                                        </td>
-                                                                        <td style="width:5%;">
-                                                                            <table>
-                                                                                <tr>
-                                                                                    <td class="icons-bar">
-                                                                                        <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                           href="9d9117890ddcc879890e7b7bbb233fdc85b84f86cc79348bdaec4ba5a5461ad5.html"
-                                                                                           title="View test results">
-                                                                                            <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
-                                                                                            </a>
+                                                <div id="tree"></div>
 
-
-                                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                               href="9d9117890ddcc879890e7b7bbb233fdc85b84f86cc79348bdaec4ba5a5461ad5.html"
-                                                                                               title="View test results">
-                                                                                                <i class="bi bi-eyeglasses"></i>
-                                                                                            </a>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </table>
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td style="width:95%;" class="toc-title">
-                                                                            <span class="orphan-scenario-toc-entry">
-                                                                                    <a href="#f6d31f4d3725e5b031354fbba1895e9712f3a83fbadcffd83708b413835e4895"
-                                                                                       title="View scenario details">
-                                                                                        <i class="bi bi-chat-dots"></i> Scenario: sucsess add new class
-                                                                                    </a>
-                                                                                </span>
-                                                                        </td>
-                                                                        <td>
-
-                                                                        </td>
-                                                                        <td style="width:5%;">
-                                                                            <table>
-                                                                                <tr>
-                                                                                    <td class="icons-bar">
-                                                                                        <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                           href="8d71f8d1067f766e5472013b690316b4daebfc481bd0f693a3da1ef3d6859c81.html"
-                                                                                           title="View test results">
-                                                                                            <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
-                                                                                            </a>
-
-
-                                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                               href="8d71f8d1067f766e5472013b690316b4daebfc481bd0f693a3da1ef3d6859c81.html"
-                                                                                               title="View test results">
-                                                                                                <i class="bi bi-eyeglasses"></i>
-                                                                                            </a>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </table>
-                                                                        </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td style="width:95%;" class="toc-title">
-                                                                            <span class="orphan-scenario-toc-entry">
-                                                                                    <a href="#df336bc9ad599897c5704c718f2223fc25f5d3848cd57a92b9271ba630cec828"
-                                                                                       title="View scenario details">
-                                                                                        <i class="bi bi-chat-dots"></i> Scenario: admin select class
-                                                                                    </a>
-                                                                                </span>
-                                                                        </td>
-                                                                        <td>
-
-                                                                        </td>
-                                                                        <td style="width:5%;">
-                                                                            <table>
-                                                                                <tr>
-                                                                                    <td class="icons-bar">
-                                                                                        <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                           href="e79f7ac3e21cb5799749f12b934d820a02e2fcb9a96f79bb5a97bd3302bc8d18.html"
-                                                                                           title="View test results">
-                                                                                            <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
-                                                                                            </a>
-
-
-                                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                               href="e79f7ac3e21cb5799749f12b934d820a02e2fcb9a96f79bb5a97bd3302bc8d18.html"
-                                                                                               title="View test results">
-                                                                                                <i class="bi bi-eyeglasses"></i>
-                                                                                            </a>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </table>
-                                                                        </td>
-                                                                    </tr>
-                                                    </table>
-                                                </div>
-                                                <!--- END OF TOC --->
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                    <h3>Scenarios</h3>
-
-                                                        <a name="ae0011c8-b323-44d9-8d12-4177e2c00fff"></a>
-                                                        <p class="rule-tags inline-tag">
-                                                        </p>
-                                                            <div class="scenario-docs card">
-                                                                <div class="scenario-docs card-header" style="min-height:1.5em;">
-                                                                    <span class="scenario-heading">
-                                                                    Background: </span>
-                                                                    </span>
-                                                                </div>
-                                                                <div class="scenario-docs card-body">
-                                                                        <p>Given admin on login page</p>
-                                                                        <p>When admin input valid ussername</p>
-                                                                        <p>And admin input valid password</p>
-                                                                        <p>And click login button</p>
-                                                                        <p>And click sucsess login</p>
-                                                                </div>
-                                                            </div>
-
-
-                                                            <div class="scenario-docs card" id="94d9afe8a8138236a36e9307487f68dab4d0b63819177ef09bfe13bc51418cb9">
-                                                                <div class="scenario-docs card-header success" style="min-height:1.5em;">
-                                                                    <div>
-                                                                        <span class="scenario-heading">
-                                                                            <a href="9d9117890ddcc879890e7b7bbb233fdc85b84f86cc79348bdaec4ba5a5461ad5.html"
-                                                                               title="View test results">Scenario: admin see detail class page</a>
-                                                                        </span>
-
-                                                                        <span class="example-tags inline-tag">
-                                                                        </span>
-
-                                                                        <span class="scenario-result-icon">
-                                                                    
-
-                                                                                <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
-                                                                        </span>
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="scenario-docs card-body">
-                                                                        <p>Given admin in dashboard page</p>
-                                                                        <p>When admin click class page</p>
-                                                                        <p>Then admin see detail about class</p>
-                                                                    <div class="examples">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="scenario-docs card" id="f6d31f4d3725e5b031354fbba1895e9712f3a83fbadcffd83708b413835e4895">
-                                                                <div class="scenario-docs card-header success" style="min-height:1.5em;">
-                                                                    <div>
-                                                                        <span class="scenario-heading">
-                                                                            <a href="8d71f8d1067f766e5472013b690316b4daebfc481bd0f693a3da1ef3d6859c81.html"
-                                                                               title="View test results">Scenario: sucsess add new class</a>
-                                                                        </span>
-
-                                                                        <span class="example-tags inline-tag">
-                                                                        </span>
-
-                                                                        <span class="scenario-result-icon">
-                                                                    
-
-                                                                                <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
-                                                                        </span>
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="scenario-docs card-body">
-                                                                        <p>Given admin click class page</p>
-                                                                        <p>When admin click add new class</p>
-                                                                        <p>And Admin fill in all that is ordered</p>
-                                                                        <p>Then admin succsess create new class</p>
-                                                                    <div class="examples">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="scenario-docs card" id="df336bc9ad599897c5704c718f2223fc25f5d3848cd57a92b9271ba630cec828">
-                                                                <div class="scenario-docs card-header success" style="min-height:1.5em;">
-                                                                    <div>
-                                                                        <span class="scenario-heading">
-                                                                            <a href="e79f7ac3e21cb5799749f12b934d820a02e2fcb9a96f79bb5a97bd3302bc8d18.html"
-                                                                               title="View test results">Scenario: admin select class</a>
-                                                                        </span>
-
-                                                                        <span class="example-tags inline-tag">
-                                                                        </span>
-
-                                                                        <span class="scenario-result-icon">
-                                                                    
-
-                                                                                <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
-                                                                        </span>
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="scenario-docs card-body">
-                                                                        <p>Given admin in dashboard page</p>
-                                                                        <p>When admin click class page</p>
-                                                                        <p>And admin click class on the class page</p>
-                                                                        <p>Then user succses select or see class</p>
-                                                                    <div class="examples">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
                                             </div>
                                         </div>
                                     </div>
@@ -511,9 +287,6 @@
                                             <div class="col-sm-4">
                                                 <h3>Feature Coverage By Scenario</h3>
                                                 <!-- TEST RESULT PIE CHART -->
-                                                    <div class="chart-container" style="position: relative; width:30vw">
-                                                        <canvas id="resultChart" width="300" height="300"></canvas>
-                                                    </div>
                                             </div>
                                             <div class="col-sm-4">
                                                 <h4><i class="bi bi-check-square"></i> Test Outcomes</h4>
@@ -538,56 +311,7 @@
                                             <div class="col-sm-12">
                                                 <h3><i class="bi bi-gear"></i> Automated Tests</h3>
 
-                                                    <table class="scenario-result-table table"
-                                                           id="scenario-results">
-                                                        <thead>
-                                                        <tr>
-                                                            <th class="test-name-column">Scenario</th>
-                                                            <th>Steps</th>
-                                                            <th>Started</th>
-                                                            <th>Duration</th>
-                                                            <th>Result</th>
-                                                        </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr class="scenario-result SUCCESS">
-                                                                <td>
-                                                                        <a href="9d9117890ddcc879890e7b7bbb233fdc85b84f86cc79348bdaec4ba5a5461ad5.html">admin see detail class page</a>
-                                                                </td>
-                                                                <td>3</td>
-                                                                <td>00:46:11</td>
-                                                                <td>7s 562ms</td>
-                                                                <td>
-                                                                        <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
-                                                                            style="display:none">SUCCESS</span>
-                                                                                                                                    </td>
-                                                            </tr>
-                                                            <tr class="scenario-result SUCCESS">
-                                                                <td>
-                                                                        <a href="8d71f8d1067f766e5472013b690316b4daebfc481bd0f693a3da1ef3d6859c81.html">sucsess add new class</a>
-                                                                </td>
-                                                                <td>4</td>
-                                                                <td>00:46:19</td>
-                                                                <td>10s 274ms</td>
-                                                                <td>
-                                                                        <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
-                                                                            style="display:none">SUCCESS</span>
-                                                                                                                                    </td>
-                                                            </tr>
-                                                            <tr class="scenario-result SUCCESS">
-                                                                <td>
-                                                                        <a href="e79f7ac3e21cb5799749f12b934d820a02e2fcb9a96f79bb5a97bd3302bc8d18.html">admin select class</a>
-                                                                </td>
-                                                                <td>4</td>
-                                                                <td>00:46:30</td>
-                                                                <td>6s 721ms</td>
-                                                                <td>
-                                                                        <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
-                                                                            style="display:none">SUCCESS</span>
-                                                                                                                                    </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
+                                                    No automated tests were executed
 
                                             </div>
                                         </div>
@@ -601,22 +325,6 @@
                                             </div>
                                         </div>
 
-        <div class="row">
-            <div class="col-sm-12">
-                <h3>Tags</h3>
-                    <div class="card">
-                        <div class="card-body">
-                            <div>
-                                    <a href="d631c0fef06687bb4dd5f807eca6972170587ddc4cc6fdc4585c1926aef4d412.html">
-                                    <span class="tag-badge badge" style="background-color:#b0cf73; margin:1em;padding:4px;">
-                                        <i class="bi bi-tag-fill"></i> Class&nbsp;&nbsp;&nbsp;3
-                                    </span>
-                                    </a>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        </div>
                                     </div>
                                 </div>
                             </div>
@@ -657,7 +365,7 @@
             datasets: [{
                 label: 'Test Results',
                 fill: false,
-                data: [{meta: 'Passing tests', value: 3}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
+                data: [{meta: 'Passing tests', value: 0}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
                 backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                 borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                 borderWidth: 1,
@@ -708,7 +416,7 @@
                         ctx.font = fontSize + "em sans-serif";
                         ctx.textBaseline = "middle";
 
-                        var text = "100%"
+                        var text = " "
                         textX = 10 + Math.round((width - ctx.measureText(text).width) / 2);
                         textY = (height / 2) - 40;
 
@@ -752,7 +460,7 @@
             datasets: [{
                 label: 'Feature Coverage',
                 fill: false,
-                data: [{meta: 'Passing tests', value: 3}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
+                data: [{meta: 'Passing tests', value: 0}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
                 backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                 borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                 borderWidth: 1,
@@ -803,7 +511,7 @@
                         ctx.font = fontSize + "em sans-serif";
                         ctx.textBaseline = "middle";
 
-                        var text = "100%"
+                        var text = " "
                         textX = 10 + Math.round((width - ctx.measureText(text).width) / 2);
                         textY = (height / 2) - 40;
 
@@ -848,7 +556,7 @@
             datasets: [
                 {
                     label: 'Automated',
-                    data: [3,0,0,0,0,0,0,0],
+                    data: [0,0,0,0,0,0,0,0],
                     backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                     borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                     borderWidth: 1
@@ -931,7 +639,7 @@
             datasets: [{
                 label: 'Number of tests per duration',
                 fill: false,
-                data: ['0','2','1','0','0','0','0','0'],
+                data: ['0','0','0','0','0','0','0','0'],
                 backgroundColor: 'rgba(83, 146, 255,0.5)',
                 borderColor: 'rgba(83, 146, 255, 1)',
             }]

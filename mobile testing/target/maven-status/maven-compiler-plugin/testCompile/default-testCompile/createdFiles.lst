@@ -1,0 +1,6 @@
+starter\stepdefinitions\Loginsteps.class
+starter\CucumberTestSuite.class
+starter\hooks\BaseDriverHooks.class
+starter\pages\Loginpages.class
+starter\pages\Registerpages.class
+starter\stepdefinitions\Registersteps.class

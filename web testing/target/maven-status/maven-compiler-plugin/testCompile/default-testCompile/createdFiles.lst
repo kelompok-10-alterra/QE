@@ -1,4 +1,5 @@
 starter\pages\HomePage.class
+starter\definitions\LogoutSteps.class
 starter\definitions\MembershipSteps.class
 starter\pages\NewsletterPage.class
 starter\definitions\ContentSteps.class
@@ -14,6 +15,7 @@ starter\pages\ClassPage.class
 starter\definitions\BookingSteps.class
 starter\pages\ManageadminPage.class
 starter\pages\ContentPage.class
+starter\pages\LogoutPage.class
 starter\pages\MembershipPage.class
 starter\CucumberTestSuite.class
 starter\pages\LoginPage.class

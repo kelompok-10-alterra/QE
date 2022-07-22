@@ -1,20 +1,22 @@
-D:\capstone projek\web testing\src\test\java\starter\pages\HomePage.java
-D:\capstone projek\web testing\src\test\java\starter\definitions\UserSteps.java
-D:\capstone projek\web testing\src\test\java\starter\pages\MembershipPage.java
-D:\capstone projek\web testing\src\test\java\starter\pages\ContentPage.java
-D:\capstone projek\web testing\src\test\java\starter\definitions\BookingSteps.java
-D:\capstone projek\web testing\src\test\java\starter\definitions\DashboardSteps.java
-D:\capstone projek\web testing\src\test\java\starter\definitions\ManageadminSteps.java
-D:\capstone projek\web testing\src\test\java\starter\pages\BookingPage.java
-D:\capstone projek\web testing\src\test\java\starter\CucumberTestSuite.java
-D:\capstone projek\web testing\src\test\java\starter\definitions\ClassSteps.java
-D:\capstone projek\web testing\src\test\java\starter\pages\UserPage.java
-D:\capstone projek\web testing\src\test\java\starter\pages\NewsletterPage.java
-D:\capstone projek\web testing\src\test\java\starter\definitions\MembershipSteps.java
-D:\capstone projek\web testing\src\test\java\starter\pages\ManageadminPage.java
-D:\capstone projek\web testing\src\test\java\starter\pages\LoginPage.java
-D:\capstone projek\web testing\src\test\java\starter\pages\DashboardPage.java
-D:\capstone projek\web testing\src\test\java\starter\definitions\NewsletterSteps.java
-D:\capstone projek\web testing\src\test\java\starter\definitions\LoginSteps.java
-D:\capstone projek\web testing\src\test\java\starter\pages\ClassPage.java
-D:\capstone projek\web testing\src\test\java\starter\definitions\ContentSteps.java
+D:\capstone\web testing\src\test\java\starter\definitions\NewsletterSteps.java
+D:\capstone\web testing\src\test\java\starter\pages\DashboardPage.java
+D:\capstone\web testing\src\test\java\starter\definitions\ClassSteps.java
+D:\capstone\web testing\src\test\java\starter\definitions\UserSteps.java
+D:\capstone\web testing\src\test\java\starter\definitions\LoginSteps.java
+D:\capstone\web testing\src\test\java\starter\CucumberTestSuite.java
+D:\capstone\web testing\src\test\java\starter\pages\BookingPage.java
+D:\capstone\web testing\src\test\java\starter\pages\LoginPage.java
+D:\capstone\web testing\src\test\java\starter\pages\UserPage.java
+D:\capstone\web testing\src\test\java\starter\pages\ManageadminPage.java
+D:\capstone\web testing\src\test\java\starter\pages\NewsletterPage.java
+D:\capstone\web testing\src\test\java\starter\definitions\ContentSteps.java
+D:\capstone\web testing\src\test\java\starter\pages\ContentPage.java
+D:\capstone\web testing\src\test\java\starter\definitions\DashboardSteps.java
+D:\capstone\web testing\src\test\java\starter\definitions\LogoutSteps.java
+D:\capstone\web testing\src\test\java\starter\pages\HomePage.java
+D:\capstone\web testing\src\test\java\starter\definitions\ManageadminSteps.java
+D:\capstone\web testing\src\test\java\starter\definitions\BookingSteps.java
+D:\capstone\web testing\src\test\java\starter\definitions\MembershipSteps.java
+D:\capstone\web testing\src\test\java\starter\pages\ClassPage.java
+D:\capstone\web testing\src\test\java\starter\pages\LogoutPage.java
+D:\capstone\web testing\src\test\java\starter\pages\MembershipPage.java
